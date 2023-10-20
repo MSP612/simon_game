@@ -12,7 +12,11 @@ $(".btn").click(function(e){
 
 $("#Start").click(function(e){
     if(level===0){
-        GameStart();
+        $("#level-title").text("Loading...")
+        setTimeout(()=>{
+            
+            GameStart();
+        },2000);
     }
 });
 
