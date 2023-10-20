@@ -10,7 +10,7 @@ $(".btn").click(function(e){
     validateUserInput(e.type);
 });
 
-$("body").click(function(e){
+$("#Start").click(function(e){
     if(level===0){
         GameStart();
     }
@@ -57,8 +57,9 @@ function validateUserInput(type){
             }
         }
         else{
-            GameOver();
+            level=0;
             gameArr=[];
+            GameOver();
         }
     }
 }
