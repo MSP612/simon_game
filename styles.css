@@ -70,7 +70,8 @@ body {
 
 #rules{
   display: inline-block;
-  color: aliceblue;
+  color: white;
+  font-size: x-large;
   text-align: justify;
 }
 
