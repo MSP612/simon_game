@@ -5,7 +5,7 @@ body {
 }
 
 #level-title {
-  display: inline-block;
+  display: block;
   font-family: 'Press Start 2P', cursive;
   justify-content: center;
   font-size: 3rem;
@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  display: block;
+  display: inline-block;
   width: 50%;
   margin: auto;
 
@@ -66,4 +66,14 @@ body {
   text-align: end;
   text-decoration: none;
   font-size: 40px;
+}
+
+#rules{
+  display: inline-block;
+  color: aliceblue;
+  text-align: justify;
+}
+
+#main-part{
+  display: flex;
 }
