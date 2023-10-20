@@ -10,6 +10,11 @@ $(".btn").click(function(e){
     validateUserInput(e.type);
 });
 
+$("body").click(function(e){
+    if(level===0){
+        GameStart();
+    }
+});
 
 $("body").keypress(function(e){
     validateUserInput(e.type);
